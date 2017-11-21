@@ -1,0 +1,76 @@
+body { 
+      background: url(student.jpg) right 5% bottom 10% no-repeat, url(coder.png) left 5% top 10% no-repeat; 
+      background-size: 116px 106px;
+      background-color:#CCFFFF;
+}
+h1   {
+      text-align:center;
+      color:#330066;
+      font-size:2em;
+      font-style:italic;
+}
+h3   {
+      text-align:center;
+      color:#FF0000;
+      font-size:1.5em;
+      font-style:italic;  
+}
+div {
+     width:47.500em;
+     margin:0em auto;
+     background-color:#FFF;
+     border:0.125em;
+     border-color:blue;
+     border-style:double;  
+}
+div > p:first-of-type {
+                       text-align:center; 
+                       font-size:1.250em;       
+}
+div > p:nth-last-of-type(2) strong::after {
+                                           content:"Homework 3"; 
+                                           background:yellow ;
+}
+div > p:last-of-type {
+                      text-align:center;
+                      letter-spacing:0.313em;  
+}
+div > img {
+           width:9.375em;
+           height:8.750em;
+           float:left;
+           vertical-align:top;
+           margin-right:1.250em;
+}
+table {
+       width:18.750em;
+       border-style:outset;
+       border-color:grey;
+       border-width:0.125em; 
+       border-collapse:separate;
+       border-spacing:0.125em;
+} 
+tr, th, td {
+            border-style:inset;
+            border-color:grey;
+            border-width:0.063em; 
+}
+th {
+    color:#CC0000;
+}
+tr:nth-child(2n+2) {
+                    background-color:#999999;
+}
+section > p::first-letter {
+                           font-size:3.125em; 
+                           color:#FF0000;
+                           font-style: italic; 
+                           font-weight: bold;
+}
+ul {
+    list-style-image: url('trillium.gif');
+}
+footer {
+        background: linear-gradient(ivory, pink);
+}
+
